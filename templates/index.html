@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class="cabecalho">
+        <nav>
+            <h1>CRUD</h1>
+            <div class="items-cabecalho">
+                <p><a href="">Mais informações</a></p>
+                <p><a href="">Ajuda</a></p>
+            </div>
+        </nav>
+    </div>
+    <div class="main">
+        
+        <div class="label">
+            <h3>Tarefas:</h3>
+            <button class="create-btn">CRIAR</button>
+        </div>
+
+        <div class="lista">
+
+            <div class="left-list">
+                <input type="checkbox">
+                <p>TITULO</p>
+            </div>
+
+            <div class="right-list">  
+                <button class="edit-btn">EDITAR</button>
+                <button class="delete-btn">DELETAR</button>
+            </div>
+
+        </div>
+        <div class="lista">
+
+            <div class="left-list">
+                <input type="checkbox">
+                <p>TITULO</p>
+            </div>
+
+            <div class="right-list">  
+                <button class="edit-btn">EDITAR</button>
+                <button class="delete-btn">DELETAR</button>
+            </div>
+
+        </div>
+        <div class="lista">
+
+            <div class="left-list">
+                <input type="checkbox">
+                <p>TITULO</p>
+            </div>
+
+            <div class="right-list">  
+                <button class="edit-btn">EDITAR</button>
+                <button class="delete-btn">DELETAR</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
